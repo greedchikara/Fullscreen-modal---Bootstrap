@@ -27,6 +27,9 @@
  * 
  */
 
+//this class makes the modal width 100%. This class is applied with modal-dialog (if you are using it)
+//otherwise apply this class with modal-content div
+
 .full-screen {
 
 	margin: 0px;
@@ -35,21 +38,38 @@
 	padding: 0px;
 }
 
+// this class is used to make the height of the modal 100%.
+// this class is applied to modal-content div
+// apply this class only if you are using modal-dialog div, otherwise no need to apply this
+
+
 .full-height {
 
 	height: 100%;
 
 }
 
+// this class will remove the corners
+//this class is applied to modal-content div
+
 .no-corner {
 
 	border-radius: 0;
 }
 
+
+/**
+ *
+ * css for stylish modal
+ */
+
+// this class is used to change the background of modal
+
 .monokai {
 
 	background-color: #292727;
 }
+
 
 #fullscreen-s .side-content {
 
